@@ -127,7 +127,7 @@
   Output: Ahora haga lo mismo, excepto con una media de 100 y una desviación estándar de 25.
   CorrectAnswer: rnorm(10, 100, 25)
   AnswerTests: match_call('rnorm(10, 100, 25)')
-  Hint: Utilice RNorm (10, media = 100, SD = 25) para generar 10 números aleatorios de una distribución normal con media 100 y desviación estándar 25.
+  Hint: Utilice rnorm (10, mean = 100, sd = 25) para generar 10 números aleatorios de una distribución normal con media 100 y desviación estándar 25.
 
 - Class: text
   Output: Por último, ¿qué pasa si queremos simular 100 *grupos*  de números al azar, cada uno con 5 valores generados a partir de una distribución de Poisson con media 10? Vamos a empezar con un grupo de 5 números, entonces te voy a mostrar cómo repetir la operación de 100 veces de una manera conveniente y compacta.
